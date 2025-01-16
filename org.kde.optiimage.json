@@ -14,7 +14,9 @@
         "--socket=wayland",
         "--device=dri"
     ],
-    "cleanup": ["/bin/aarch64-linux-gnu-gcc"],
+    "cleanup": [
+        "/bin/aarch64-linux-gnu-gcc"
+    ],
     "modules": [
         {
             "name": "jpegoptim",
@@ -91,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.6.0.tar.xz",
-                    "sha256": "376dae6fc5acac7d0905ce9fef3211be0705c6e2df52bb80dfde1eaa20fe1bfa",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.7.0.tar.xz",
+                    "sha256": "7d854975185cf740de486d84f1e2ec3e4eadb66ac9fb897214cba9ab8cc492b1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -106,7 +108,7 @@
             "name": "optiimage",
             "buildsystem": "cmake-ninja",
             "sources": [
-               {
+                {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/optiimage/optiimage-1.0.0.tar.xz",
                     "sha256": "05ef948c0fbf2b80dfa8f1f5a42457f8fd39e1b988b8af99679348e401c5f515",
@@ -116,7 +118,7 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/optiimage/optiimage-$version.tar.xz"
                     }
-               }
+                }
             ]
         }
     ]
