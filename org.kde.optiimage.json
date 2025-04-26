@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/shssoichiro/oxipng/archive/refs/tags/v9.1.3.tar.gz",
-                    "sha256": "5f34bc3a9eba661a686106261720061b1136301ccd67cc653c9c70d71fa33c09",
+                    "url": "https://github.com/shssoichiro/oxipng/archive/refs/tags/v9.1.5.tar.gz",
+                    "sha256": "8f99d5c67efa2a7550023bf610b90e65d421375c9ed7f37097f83ae5c05f85bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 209796,
