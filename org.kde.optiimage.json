@@ -15,6 +15,7 @@
         "--device=dri"
     ],
     "cleanup": [
+        "/share/man",
         "/bin/aarch64-linux-gnu-gcc"
     ],
     "modules": [
